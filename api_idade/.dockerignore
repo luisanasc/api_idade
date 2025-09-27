@@ -1,0 +1,38 @@
+# Ambientes virtuais / caches Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Artefatos de build / distribuição
+build/
+dist/
+
+# Notebooks e checkpoints
+.ipynb_checkpoints/
+
+# IDEs e VCS
+.idea/
+.vscode/
+.git/
+.gitignore
+
+# Arquivos do SO
+.DS_Store
+Thumbs.db
+
+# Pastas/arquivos grandes não usados pela API em produção
+data/
+dados/
+datasets/
+logs/
+
+# Variáveis de ambiente (não embutir segredos na imagem)
+.env
+.env.*

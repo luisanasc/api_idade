@@ -1,0 +1,64 @@
+{
+  "alvo": "age",
+  "colunas_numericas": [
+    "altura",
+    "peso",
+    "cintura",
+    "visao_esq",
+    "visao_dir",
+    "audicao_esq",
+    "audicao_dir",
+    "pressao_sistolica",
+    "pressao_diastolica",
+    "glicose",
+    "colesterol_total",
+    "hdl",
+    "ldl",
+    "triglicerideos",
+    "hemoglobina",
+    "proteina_urina",
+    "creatinina",
+    "ast",
+    "alt",
+    "ggt",
+    "imc",
+    "razao_pressao",
+    "razao_hdl",
+    "razao_ldl"
+  ],
+  "colunas_categoricas": [
+    "sexo",
+    "tabagismo",
+    "alcool",
+    "classe_visao_esq",
+    "classe_visao_dir",
+    "classe_pressao",
+    "classe_glicose",
+    "classe_creatinina",
+    "classe_ast",
+    "classe_alt",
+    "classe_ggt"
+  ],
+  "metricas": {
+    "train": {
+      "quantidade": 99132,
+      "MAE": 7.01,
+      "RMSE": 8.87,
+      "R2": 0.61,
+      "MAPE_%": 16.91,
+      "média": 47.62,
+      "mediana": 45,
+      "desvio_padrão": 14.2
+    },
+    "test": {
+      "quantidade": 99132,
+      "MAE": 7.06,
+      "RMSE": 8.94,
+      "R2": 0.6,
+      "MAPE_%": 17.09,
+      "média": 47.52,
+      "mediana": 45,
+      "desvio_padrão": 14.13
+    }
+  }
+}
